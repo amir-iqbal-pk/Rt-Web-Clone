@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+.header{
+    background-color:#44dd9f;
+    padding: 8px;
+    /* border-color: #b2d7f0;
+    border-style: solid;
+    border-radius: 50px 50px 50px 50px; */
+}
+.nav-bar-content{
+    display: flex;
+    justify-content: flex-end;
+    font-style: italic;
+    text-align: left;
+    
+}
+.text-Navbar{
+    color: black;
+    text-align: start;
+    padding: 18px;
+    font-size: 20px;
+    text-decoration: auto;
+}
+.lower-header{
+    display: flex;
+    background-color: #fff;
+    align-items: center;
+    justify-content: space-between  ;
+    
+}
+.lower-header > img{
+   justify-content: left;
+   max-width: 100%;
+   object-fit: contain;
+   width: 350px;
+   margin-top: 10px;
+   margin-left: 65px;
+}
+.lower-header-S1{
+    display: grid;
+    list-style: none;
+    justify-content: flex-end;
+    display: flex;
+    position: relative;
+    width: 100%;
+       
+}
+    
+.lower-header-list{
+    /* padding: 30px; */
+    margin-top: 28px;
+    padding-right: 30px;
+}
+.lower-header-list:not(:last-child){
+    margin-right: 70px;
+}
+.lower-header-text{
+    font-size: 18px;
+    color: red;
+    font-weight: 200;
+}
+.section2{
+    background-color: #fff;
+}
+.section2-H{
+    color: #9d1e20;
+    font-size: 67px;
+    font-weight: bold;
+    line-height: 70px;
+    padding-left: 75px;
+}
+.section2-P{
+    /* margin-top: 150px;
+    margin-right: PX; */
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 400;
+    padding-left: 100px ;
+}
+.about-us{
+    margin-left: 200px;
+    text-decoration: none;
+    color: #9d1e20;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+.Our-Service{
+    margin-top:40px ;
+    background-color: beige;
+    height: 500px;
+    padding-top: 10px;
+   /* width: 100%; */
+   /* padding-left: 20px !important;
+   padding-right: 20px !important; */
+   /* margin-left: 60px;
+   margin-top: 30px; */
+}
+.Our-Service-H{
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   color: #9d1e20;
+}
+.service-grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.service-grid-img{
+padding: 50px;;
+    width: 125px;
+    height: 125px;
+}
+

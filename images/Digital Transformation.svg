@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>Digital Transformation</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Digital-Transformation" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g transform="translate(31.000000, 33.000000)" fill-rule="nonzero" stroke-width="5">
+            <g id="525" stroke="#041630">
+                <path d="M72.3131997,4.26325641e-14 L61.0996751,4.26325641e-14 C60.051412,4.26325641e-14 53.1609998,18.5621008 53.1609998,18.5621008 L44.7301523,21.979418 C44.7301523,21.979418 26.0531725,14.046132 25.3372855,14.7295955 L14.6181564,25.2242725 C13.876702,25.9588361 22.4098191,43.8502484 22.4098191,43.8502484 L18.9326538,52.1220724 C18.9326538,52.1220724 3.55271368e-14,59.397445 3.55271368e-14,60.3938964 L3.55271368e-14,75.225692 C3.55271368e-14,76.2476934 18.9773967,82.9992903 18.9773967,82.9992903 L22.4609539,91.2455642 C22.4609539,91.2455642 14.3560906,109.520227 15.0655857,110.222853 L25.7974985,120.704755 C26.5197774,121.413769 44.8196382,113.071682 44.8196382,113.071682 L53.2632694,116.501774 C53.2632694,116.501774 60.7161642,135 61.7388599,135 L72.3131997,135 L72.3131997,89.3726812 C55.4377332,87.0927608 47,79.8445687 47,67.628105 C47,55.4116413 55.4377332,48.0745774 72.3131997,45.6169131 L72.3131997,4.26325641e-14 Z" id="Path"></path>
+            </g>
+            <g id="Group" transform="translate(89.000000, 8.000000)">
+                <rect id="Rectangle" stroke="#C5001A" x="0" y="0" width="16" height="16"></rect>
+                <rect id="Rectangle-Copy" stroke="#041630" x="0" y="34.3333333" width="16" height="16"></rect>
+                <rect id="Rectangle-Copy-2" stroke="#041630" x="0" y="68.6666667" width="16" height="16"></rect>
+                <rect id="Rectangle-Copy-4" stroke="#041630" x="33" y="87" width="16" height="16"></rect>
+                <rect id="Rectangle-Copy-5" stroke="#041630" x="33" y="20" width="16" height="16"></rect>
+                <rect id="Rectangle-Copy-6" stroke="#C5001A" x="33" y="53" width="16" height="16"></rect>
+                <rect id="Rectangle-Copy-3" stroke="#C5001A" x="0" y="103" width="16" height="16"></rect>
+            </g>
+        </g>
+    </g>
+</svg>
