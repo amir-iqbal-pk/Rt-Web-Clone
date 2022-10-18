@@ -18,12 +18,18 @@
     text-align: left;
     
 }
+
 .text-Navbar{
     color: black;
     text-align: start;
     padding: 18px;
     font-size: 20px;
     text-decoration: auto;
+}
+a:hover{
+ background: #d49715;
+  border-radius: 40px 40px 40px 40px;
+  border-style: solid;
 }
 .lower-header{
     display: flex;
@@ -290,10 +296,24 @@ background-color: rgb(226, 226, 206);
     height: 50px;
     background-color:#9d1e20;
 }
+.section4-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 90px;
+}
 .section4-imag{
     list-style:none;
+    margin: 20px;
+
 }
 .section4-imag > img{
     width : 250px;
     height: 250px;
+}
+.section4-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
