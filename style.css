@@ -130,8 +130,9 @@ a:hover{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    margin-top: 50px;
     padding-right: 400px;
-    padding-left: 200px; 
+    padding-left: 260px; 
     align-items: center;
     background-color: #133853;
     /* max-width: 100%; */
@@ -347,8 +348,8 @@ background-color: white;
   background-color: #F7F7F7;
   height: 400px;
   display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
   align-items: flex-start;
   justify-content: space-around;
   border-bottom: 4px solid #9d1e20;
@@ -362,7 +363,7 @@ background-color: white;
   color: #000000;
 }
 .footer-content:not(:last-child){
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .footer-MH{
     font-size: 20px !important;
