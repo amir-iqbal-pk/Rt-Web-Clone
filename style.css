@@ -343,4 +343,44 @@ background-color: white;
     width : 450px;
     height: 450px;
 }
-
+.section-footer{
+  background-color: #F7F7F7;
+  height: 400px;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: flex-start;
+  justify-content: space-around;
+  border-bottom: 4px solid #9d1e20;
+}
+.footer-content{
+  display: flex;
+  flex-direction: column;
+}
+.footer-content >a {
+  text-decoration: none;
+  color: #000000;
+}
+.footer-content:not(:last-child){
+  margin-right: 15px;
+}
+.footer-MH{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #9d1e20 !important;
+    line-height: 57px !important;
+}
+a:hover{
+ color: #7C2040;
+}
+.Follow-Us-H{
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    color: #9d1e20 !important;
+    line-height: 57px !important;
+    margin-top: 10px;
+}
+.social-logos{
+  padding-left: 10px;
+  margin: 0;
+}
