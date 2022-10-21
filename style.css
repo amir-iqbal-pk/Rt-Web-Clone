@@ -42,7 +42,7 @@ a:hover{
   position: absolute;
   top: 5px;
   left: -745px;
-  height: 355px;
+  height: 360px;
 }
 .experties-dropdown:hover .dropdown{
   display: flex;
@@ -236,7 +236,7 @@ background-color: white;
 }
 .section4-MH{
  display: flex;
- padding-left: 200px;
+ padding-left: 250px;
  color: #9d1e20;
  font-size: 50px;
  font-weight: 600;
@@ -252,7 +252,7 @@ background-color: white;
     line-height: 38px;
     color: #000000;
     padding-top: 45px;
-    padding-right: 40px;
+    /* padding-right: 40px; */
 }
 /* .spacing-div{
     height: 50px;
@@ -422,7 +422,7 @@ ol, li {
 .carousel {
   position: relative;
   padding-top: 75%;
-  filter: drop-shadow(0 0 10px #0003);
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
   perspective: 100px;
 }
 
@@ -450,7 +450,7 @@ ol, li {
 }
 
 .carousel__slide:nth-child(even) {
-  background-color: red;
+  background-color: blueviolet;
 }
 
 .carousel__slide:before {
@@ -570,10 +570,11 @@ ol, li {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
 .carousel__slide >img{
-  height: 100%;
-  width: 100%;
-  align-items: center;
+  height: 250px;
   justify-content: center;
-  
+  align-items: center;
+
+  width: 250px;
 }
+
 
