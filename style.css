@@ -41,8 +41,8 @@ a:hover{
   width: 50vw;
   position: absolute;
   top: 5px;
-  left: -740px;
-  height: 350px;
+  left: -745px;
+  height: 355px;
 }
 .experties-dropdown:hover .dropdown{
   display: flex;
@@ -200,6 +200,13 @@ background-color: rgb(5, 119, 75);
  color: white;
  font-size: 30px;
 }
+.section3{
+   padding-left:150px;
+   padding-right: 150px;
+   height: 700px;
+   background-color: rgb(226, 226, 206);
+   border-bottom:3px  red solid;
+}
 
 .section3-MC{
     height: 80px;
@@ -288,7 +295,7 @@ background-color: white;
     margin-right: 120px;
 }
 .section4-imag2 > img{
-    width : 450px;
+    width : 620px;
     height: 450px;
     padding-left: 120px;
 }
@@ -424,6 +431,7 @@ ol, li {
   top: 0;
   right: 0;
   bottom: 0;
+
   left: 0;
   display: flex;
   overflow-x: scroll;
@@ -436,17 +444,17 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  height: 700px;
-  background-color: #f99;
+  height: 570px;
+  background-color: black;
   counter-increment: item;
 }
 
 .carousel__slide:nth-child(even) {
-  background-color: #99f;
+  background-color: red;
 }
 
 .carousel__slide:before {
-  content: counter(item);
+  content: "";
   position: absolute;
   top: 50%;
   left: 50%;
@@ -457,6 +465,7 @@ ol, li {
 
 .carousel__snapper {
   position: absolute;
+  color: #d2e1eb;
   top: 0;
   left: 0;
   width: 100%;
@@ -559,5 +568,12 @@ ol, li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+.carousel__slide >img{
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  
 }
 
