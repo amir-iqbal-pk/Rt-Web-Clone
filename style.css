@@ -33,7 +33,6 @@ a:hover{
 .experties-dropdown{
   position: relative;
 }
-
 .dropdown{
   background-color: #d2e1eb;
   display: none;
@@ -62,7 +61,6 @@ a:hover{
   flex-direction: row;
   display: flex;
 }
-
 .lower-header{
     display: flex;
     background-color: #BABB42;
@@ -70,7 +68,6 @@ a:hover{
     justify-content: space-between;
     list-style: none;
     border-bottom: #fff 1px solid; 
-    
 }
 .lower-header > img{
    justify-content: left;
@@ -79,7 +76,6 @@ a:hover{
    width: 350px;
    margin-top: 10px;
    margin-left: 65px;
-  
 }
 .lower-header-S1{
     display: grid;
@@ -89,7 +85,6 @@ a:hover{
     position: relative;
     width: 100%;    
 }
-    
 .lower-header-list{
     /* padding: 30px; */
     color: #fff;
@@ -97,11 +92,9 @@ a:hover{
     padding-right: 30px;
     text-decoration: none;
 }
-
 .lower-header-list:not(:last-child){
     margin-right: 70px;
 }
-
 .section2{
     background-color: #BABB42;
     border-bottom: #fff 1px solid;
@@ -117,11 +110,8 @@ a:hover{
     line-height: 40px;
     padding-left: 140px;
     padding-top: 45px;
-    
 }
 .section2-P{
-    /* margin-top: 150px;
-    margin-right: PX; */
     font-size: 30px;
     line-height: 1.25;
     padding-left: 65px;
@@ -136,9 +126,7 @@ a:hover{
     color:#fff;
     font-size: 25px;
     padding-left: 65px;
-    
 }
-
 .Our-Service{
     background-color: #133853;
     height: 550px;
@@ -159,7 +147,6 @@ a:hover{
    color: #fff;
    font-family: Muli;
 }
-
   .Our-Service-Content{
     list-style: none;
     display: flex;
@@ -169,8 +156,6 @@ a:hover{
     padding-left: 260px; 
     align-items: center;
     background-color: #133853;
-    /* max-width: 100%; */
-    /* background:rgb(128, 93, 93); */
 }
 .Our-Service-logo-holder{
     min-width: 300px;
@@ -186,7 +171,6 @@ a:hover{
   background-color: #F69679 ;
 }
 .purple{
-  
 background-color: rgb(5, 119, 75);
 }
 .Our-Service-logo-holder:not(:last-child){
@@ -209,7 +193,6 @@ background-color: rgb(5, 119, 75);
   background-color: rgb(226, 226, 206);
   border-bottom:3px  red solid;
 }
-
 .section3-MC{
     height: 80px;
     margin-top:5px ;
@@ -225,11 +208,8 @@ background-color: rgb(5, 119, 75);
     color: #9d1e20;
     font-family: Muli;
 }
-
-
 .section4{
 background-color: white;
-/* border: 5px solid rgb(226, 226, 206) ; */
  display: flex;
  position: relative;
 }
@@ -256,10 +236,6 @@ background-color: white;
     padding-top: 45px;
     /* padding-right: 40px; */
 }
-/* .spacing-div{
-    height: 50px;
-    background-color:#9d1e20;
-} */
 .section4-content{
   flex-direction: row;
   justify-content: center;
@@ -346,7 +322,6 @@ a:hover{
   padding-left: 10px;
   margin: 0;
 }
-
 @keyframes tonext {
   75% {
     left: 0;
@@ -361,7 +336,6 @@ a:hover{
     left: 0;
   }
 }
-
 @keyframes tostart {
   75% {
     left: 0;
@@ -376,7 +350,6 @@ a:hover{
     left: 0;
   }
 }
-
 @keyframes snap {
   96% {
     scroll-snap-align: center;
@@ -391,43 +364,35 @@ a:hover{
     scroll-snap-align: center;
   }
 }
-
 * {
   box-sizing: border-box;
   scrollbar-color: transparent transparent; /* thumb and track color */
   scrollbar-width: 0px;
 }
-
 *::-webkit-scrollbar {
   width: 0;
 }
-
 *::-webkit-scrollbar-track {
   background: transparent;
 }
-
 *::-webkit-scrollbar-thumb {
   background: transparent;
   border: none;
 }
-
 * {
   -ms-overflow-style: none;
 }
-
 ol, li {
   list-style: none;
   margin: 0;
   padding: 0;
 }
-
 .carousel {
   position: relative;
   padding-top: 75%;
   filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.2));
   perspective: 100px;
 }
-
 .carousel__viewport {
   position: absolute;
   top: 0;
@@ -441,7 +406,6 @@ ol, li {
   scroll-behavior: smooth;
   scroll-snap-type: x mandatory;
 }
-
 .carousel__slide {
   position: relative;
   flex: 0 0 100%;
@@ -451,11 +415,9 @@ ol, li {
   counter-increment: item;
   padding: 20px;
 }
-
 .carousel__slide:nth-child(even) {
   background-color: black;
 }
-
 .carousel__slide:before {
   content: "";
   position: absolute;
@@ -465,7 +427,6 @@ ol, li {
   color: #fff;
   font-size: 2em;
 }
-
 .carousel__snapper {
   position: absolute;
   color: #d2e1eb;
@@ -477,7 +438,6 @@ ol, li {
   height: 100%;
   scroll-snap-align: center;
 }
-
 @media (hover: hover) {
   .carousel__snapper {
     animation-name: tonext, snap;
@@ -485,23 +445,19 @@ ol, li {
     animation-duration: 4s;
     animation-iteration-count: infinite;
   }
-
   .carousel__slide:last-child .carousel__snapper {
     animation-name: tostart, snap;
   }
 }
-
 @media (prefers-reduced-motion: reduce) {
   .carousel__snapper {
     animation-name: none;
   }
 } 
-
 .carousel:hover .carousel__snapper,
 .carousel:focus-within .carousel__snapper {
   animation-name: none;
 }
-
 .carousel__navigation {
   position: absolute;
   right: 0;
@@ -509,12 +465,10 @@ ol, li {
   left: 0;
   text-align: center;
 }
-
 .carousel__navigation-list,
 .carousel__navigation-item {
   display: inline-block;
 }
-
 .carousel__navigation-button {
   display: inline-block;
   width: 1.5rem;
@@ -526,7 +480,6 @@ ol, li {
   font-size: 0;
   transition: transform 0.1s;
 }
-
 .carousel::before,
 .carousel::after,
 .carousel__prev,
@@ -541,17 +494,14 @@ ol, li {
   font-size: 0;
   outline: 0;
 }
-
 .carousel::before,
 .carousel__prev {
   left: -1rem;
 }
-
 .carousel::after,
 .carousel__next {
   right: -1rem;
 }
-
 .carousel::before,
 .carousel::after {
   content: '';
@@ -566,11 +516,9 @@ ol, li {
   text-align: center;
   pointer-events: none;
 }
-
 .carousel::before {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='0,50 80,100 80,0' fill='%23fff'/%3E%3C/svg%3E");
 }
-
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
 }
@@ -579,5 +527,3 @@ ol, li {
   width: 100%;
   object-fit: contain;
 }
-
-
