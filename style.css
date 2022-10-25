@@ -36,9 +36,9 @@ a:hover{
   flex-direction: column;
   width: 44.5vw;
   position: absolute;
-  top: 43px;
+  top: 5px;
   left: -745px;
-  height: 322px;
+  height: 300px;
 }
 .experties-dropdown:hover .dropdown{
   display: flex;
@@ -59,10 +59,12 @@ a:hover{
   display: flex;
 }
 .lower-header{
+    align-items: flex-end;
+    padding-bottom: 0px;
     display: flex;
     background-color: #BABB42;
-    align-items: center;
-    justify-content: space-between;
+    /* align-items: center; */
+     justify-content: space-between; 
     list-style: none;
     border-bottom: #fff 1px solid; 
 }
